@@ -72,13 +72,15 @@ utils::globalVariables(c(
   "temp_month",
   "ind_lookup",
   "area_lookup",
+  "refer",
   
   # Statistical functions (base R)
   "median",
   "quantile",
   
   # Placeholders within functions
-  "result"
+  "result",
+  "tf"
   
 ))
 

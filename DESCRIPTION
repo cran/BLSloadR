@@ -2,7 +2,7 @@ Package: BLSloadR
 Type: Package
 Title: Download Time Series Data from the U.S. Bureau of Labor
         Statistics
-Version: 0.4
+Version: 0.4.5
 Authors@R: c(
     person(
     given = "Nevada Department of Employment, Training, and Rehabilitation",
@@ -34,10 +34,10 @@ URL: https://schmidtdetr.github.io/BLSloadR/
 Config/Needs/website: rmarkdown
 LazyData: true
 NeedsCompilation: no
-Packaged: 2026-02-13 23:20:10 UTC; deschmidt
+Packaged: 2026-04-22 16:44:19 UTC; deschmidt
 Author: Nevada Department of Employment, Training, and Rehabilitation [cph],
   David Schmidt [aut, cre],
   Mark Rembert [aut]
 Maintainer: David Schmidt <deschmidt@detr.nv.gov>
 Repository: CRAN
-Date/Publication: 2026-02-13 23:40:02 UTC
+Date/Publication: 2026-04-23 05:10:59 UTC

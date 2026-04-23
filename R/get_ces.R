@@ -67,7 +67,7 @@
 #' @importFrom stringr str_remove
 #' @importFrom lubridate ym
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' # Fast download: Massachusetts and Connecticut data only (all industries)
 #' ces_states <- get_ces(states = c("MA", "CT"))
 #'
@@ -248,6 +248,11 @@ get_ces <- function(states = NULL, industry_filter = NULL, current_year_only = F
   # Download all files
   if(!suppress_warnings){message("Starting CES data download...\n")}
   downloads <- download_bls_files(ces_urls, suppress_warnings = suppress_warnings, cache = cache)
+  
+  # Exit function if download failed.
+  if(is.null(downloads) | length(downloads) == 0 | length(ces_urls) != length(downloads)){
+    stop("Download of BLS data failed.  Please run with suppress_warnings = FALSE for additional status messages. Consider setting the BLS_USER_AGENT environment variable to your email address to avoid Status 403 errors from BLS.")
+  }
 
   # Extract data from downloads - handle multiple data files when downloading by states
   if (!is.null(states) && !current_year_only && is.null(industry_filter)) {
