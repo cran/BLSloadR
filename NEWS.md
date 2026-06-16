@@ -1,3 +1,9 @@
+# BLSloadR 0.4.6 patch notes
+
+## Hotfix Updates
+
+This patch updates BLSloadR to fix an issue with the `get_bls_headers()` function which referred to an argument that was removed.
+
 # BLSloadR 0.4.5 patch notes
 
 ## Hotfix Updates

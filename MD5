@@ -1,11 +1,11 @@
-4e0790e0872dbdf1aef784472df3f398 *DESCRIPTION
+944a2573ff70421408c55ee028a3fa5b *DESCRIPTION
 2ee059abb6083706f54ec733e5face63 *LICENSE
 6bf9031e9ca26b04ca408f4d38c920af *NAMESPACE
-de8ca6e8fd37ae718a6ebab8c9afeed9 *NEWS.md
+6a6cb6fe1d928ec9b4b24e5c0456ca48 *NEWS.md
 cf5cbac0c5137be46f3b030039e0ade9 *R/bls_overview.R
 8fbae73627c4983e00bc14d5299a7a7a *R/ces_helpers.R
 e122116521c4b6a866fcc124b119a971 *R/data.R
-04322759664bfaffc66c5f942b212688 *R/download_helpers.R
+6bec369266eacd1a444ab41949d9a963 *R/download_helpers.R
 6e26c7a29f3dcae9d9399da93f5f45dd *R/fread_BLS.R
 ebbab09ca9ce0375b263f9678d9522dc *R/get_ces.R
 db4104f4bf97ebec9600a52c32718d46 *R/get_jolts.R
@@ -19,7 +19,7 @@ a0a61e913a76884128474f9979b4ca08 *R/load_bls_dataset.R
 8cd89468f2774262d274c00d1547770a *R/national_ces_helpers.R
 f3ec5af74b38172dd757fe92b679e88e *R/read_bls_text.R
 b1505b81a265b60e511f64534fd08ad7 *README.md
-38b7e65e5eb8acedc60485ff790016e4 *build/vignette.rds
+0d0ffa15f6d04914ef2ad2952fd339e3 *build/vignette.rds
 4ae1439d6b43b90702dff5689d13072d *data/area_lookup.rda
 79dc8bda12ff2442327412e5baecac28 *data/ind_lookup.rda
 d28205bace33e31f9b4c86ce2dbfac7b *inst/doc/BLSloadR-intro.R

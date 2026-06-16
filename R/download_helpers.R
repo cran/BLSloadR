@@ -33,7 +33,6 @@ get_bls_headers <- function(host = "download.bls.gov"
     "Accept-Language" = "en-US,en;q=0.9",
     "Connection" = "keep-alive",
     "Host" = host,
-    "Referer" = refer,
     "Sec-Ch-Ua" = 'Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
     "Sec-Ch-Ua-Mobile" = "?0",
     "Sec-Ch-Ua-Platform" = '"Windows"',
